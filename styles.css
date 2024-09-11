@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 245, 230); /* Changed background color */
+  }
+  
+  div {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(153, 204, 255); /* Changed box color */
+    border: solid medium black;
+    border-radius: 25px; /* Adjusted border-radius */
+    padding: 20px; /* Adjusted padding */
+    margin: 20px; /* Adjusted margin */
+  }
+  #box1 {
+    background-color: rgb(255, 153, 153); /* Different color for box 1 */
+    height: 200px; /* Change height */
+    float: left;
+  }
+  
+  #box2, #box3 {
+    float: right;
+    background-color: rgb(102, 255, 178); /* Different color for boxes 2 and 3 */
+  }
+  #container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 229, 204); /* Different background color */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
